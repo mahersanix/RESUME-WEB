@@ -40,7 +40,7 @@ header{
 }
 
 section {
-     padding: 200px 200px;
+     padding: 100px 200px;
 }
 
 .main{
@@ -48,7 +48,7 @@ section {
      min-width: 100vh;
      display: flex;
      align-items:center;
-     background: url(images/Hanzo.jpg) no-repeat center fixed;
+     background: url(images/Hanzo.jpg) no-repeat;
      background-size: cover;
      background-position: center;
      background-attachment: fixed;
@@ -73,6 +73,20 @@ section {
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 30px;
+}
+
+.main-btn{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px; 
+
 }
 
 
