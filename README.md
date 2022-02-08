@@ -1,2 +1,2 @@
 # ResumeWebsite
- Maher's Resume Website FTU
+Resume Website FTU

@@ -93,3 +93,10 @@ section {
     background-color: coral;
     transform: scale(1.1);
 }
+
+.social-icons a{
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
