@@ -116,8 +116,33 @@ section {
     flex-wrap: wrap;
 }
 
-.card {
+.card{
     background-color: aliceblue;
     width: 21.25em;
-    box-shadow: 0 5px 25px rgba(red, green, blue, alpha);
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: blue;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: black;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 18px;
 }
