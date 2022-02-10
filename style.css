@@ -146,3 +146,32 @@ section {
     font-weight: 700;
     margin: 18px;
 }
+
+.projects{
+    background-color:black;
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+.project-card{
+    background-color: aliceblue;
+    border: 1px solid white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-card:hover .project-image {
+    opacity: 0.9;
+}
+
+.project-image img{
+    width: 100%
+}
